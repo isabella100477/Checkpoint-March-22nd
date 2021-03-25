@@ -8,7 +8,9 @@ num1 & num2.
 add should return the sum of these two parameters
 */
 
-
+function add(num1, num2){
+return num1 + num2
+}
 
 
 
@@ -23,7 +25,9 @@ The printer function should print to the console no return or parameter needed
 */
 
 
-
+function printer(){
+  console.log()
+}
 
 
 
@@ -54,3 +58,19 @@ This function will return the paramater
 Call the addKeys function outside its function definition and 
 pass myObject as an argument.
 */
+
+var myObject = {};
+
+
+function addKeys(object){
+oject.firstName = 'Mister'
+oject['lastName'] = 'Corley'
+
+return object
+
+}
+
+
+console.log(myObject)
+console.log(addKeys(myObject))
+
